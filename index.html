@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Komo en Kasa</title>
+
+
+
+    <style>
+     <!-- CSS -->
+
+  .card-title{
+  color: #80aaff;
+  }
+  a {
+  color: #80aaff;
+  }
+  #main {
+  background:  #e6ffff;
+  }
+  h1 {
+  color: #80aaff;
+  }
+  #carrusel .carousel-item img{
+  max-height: 90vh;
+  object-fit: cover;
+  }
+#carrusel {
+position: relative;
+}
+#carrusel .overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: rgba(0, 0, 0, 0.5);
+color: white;
+}
+div#headery {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+
+
+  width: 100%; /* Full width */
+}
+
+
+  <!-- /CSS -->
+
+    </style>
+
+
+
+
+
+  </head>
+  <body>
+  <main id="main">
+<!-- header -->
+
+
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+
+      <a class="navbar-brand" href="#" style="color: white;">
+        <img src="core/img/logokomoenkasa.JPG" width="50px" height="50px" alt="komo en kasa">
+        </a>
+        <h5 class="text-break" style="color: white; font-weight: bold;">
+            Te acercamos lo que quieres,
+        para que te acerques a los que quieres
+         </h5>
+
+
+
+
+
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#carrusel" style="color : white;">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pasos" style="color : white;">Como funciona</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color : white;">
+              Tipos de Recetas
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #80aaff;" data-toggle="modal" data-target="#modalIngresar">Ingresar</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </nav>
+
+<!-- /header -->
+
+
+
+
+
+
+
+
+    <!-- carrusel -->
+    <main id="carrusel">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="core/img/limon.JPG" class="d-block w-100" alt="Limón">
+          </div>
+          <div class="carousel-item">
+            <img src="core/img/crispy.JPG" class="d-block w-100" alt="Crispy">
+          </div>
+          <div class="carousel-item">
+            <img src="core/img/lechuga.JPG" class="d-block w-100" alt="Lechuga">
+          </div>
+          <div class="carousel-item">
+              <img src="core/img/moras.JPG" class="d-block w-100" alt="moras">
+          </div>
+          <div class="carousel-item">
+            <img src="core/img/cocinando.JPG" class="d-block w-100" alt="Vegana">
+          </div>
+          <div class="carousel-item">
+            <img src="core/img/tomates.JPG" class="d-block w-100" alt="Tomates">
+          </div>
+          <div class="carousel-item">
+            <img src="core/img/logokk.JPG" class="d-block w-100" alt="Logo">
+          </div>
+          <div class="overlay">
+            <div class="container">
+              <div class="row">
+                <div class="col-4 mt-5">
+                  <h1>Komo en Kasa</h1>
+                  <p class="d-none d-md-block">"Aprende a cocinar, prueba nuevas recetas, aprende de tus errores,
+                  no tengas miedo, y sobre todo, diviertete." Julia Child</p>
+                  <a href="#pasos">Como funciona</a>
+                  <button type="button" data-toggle="modal" data-target="#modalIngresar">Ingresar</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+
+
+    <!-- /carrusel -->
+
+    <!-- comoFunciona -->
+    <section id="pasos" class="mt-4 mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center text-uppercase">
+           <h1>
+             <small>como funciona : </small>
+           </h1>
+          </div>
+        </div>
+        <div class="row">
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Creamos Recetas deliciosas</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Saludables, originales, inspiradoras</h6>
+                <img src="core/img/crear_recetas.JPG" height="180px" class="card-img-top" alt="crear_recetas">
+                <p class="card-text">Cada semana buscamos nuevas recetas, dejamos las clasicas y favoritas, creamos nuevos sabores
+                  que van acorde a la temporada, para tener siempre productos frescos del campo a tu mesa.</p>
+                <a href="#finca" class="card-link">Crear Recetas</a>
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Tú escojes tus preferencias</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Clasicas, creativas, eventos, sin azúcar, sin glúten, bajas en grasa</h6>
+                <img src="core/img/escoger.JPG" height="180px" class="card-img-top" alt="escoger">
+                <p class="card-text">Según recuerdos, gustos, necesidades, dietas, escogelas, nosotros las seleccionomas,
+                  separamos y te alistamos de forma exacta para eliminar el desperdicio en toda la cadena.</p>
+                <a href="#escogerReceta" class="card-link">Escoger</a>
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Te lo despachamos semanalmente</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Sin costos de envío, dentro de una franja de horario acordada</h6>
+                <img src="core/img/despacho.JPG" height="180px" class="card-img-top" alt="despacho">
+                <p class="card-text">Te lo envíamos semanalmente, para que siempre tengas todo fresco, directo a tu casa,
+                sin colas, sin trancones, no desperdicias ni tiempo, ni dinero, ni comida</p>
+                <a href="#seleccionar" class="card-link">Alistamos</a>
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Cocina con sazón de hogar</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Sigue la receta paso a paso, con todos los productos a la mano, dale la cocción,
+                  la cantida de sal, azúcar, aceite de tus preferencias</h6>
+                <img src="core/img/cocinar.JPG" height="180px" class="card-img-top" alt="cocinar">
+                <p class="card-text">Revivamos el tiempo de comer en familia, ese sentimiento de oler lo cocinado en casa,
+                cocina comida variada a tus gustos</p>
+                <a href="#seleccionar" class="card-link">Cocinar</a>
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </section>
+
+    <!-- /comoFunciona -->
+    <!-- explicacion -->
+    <!-- planeacion -->
+    <section id="finca" class="mt-4 mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-5 mr-4">
+            <div class="card" style="width: 32rem;">
+              <img src="core/img/finca.JPG" class="card-img-top" alt="Finca">
+              <div class="card-body">
+                <p class="card-text">Trabajamos con fincas de la región, pedimos la mejor calidad y frecura, planificamos los productos
+                  que van a salir a cosecha para incluirlos en las recetas, buscamos la mejor calidad con el minimo desperdicio.</p>
+              </div>
+            </div>
+           </div>
+          <div class="col-5 ml-4">
+            <div class="card" style="width: 32rem;">
+              <img src="core/img/chef.JPG" class="card-img-top" alt="Chef">
+              <div class="card-body">
+                <p class="card-text">Buscamos diferentes formas de colaboración, chefs con recetas de autor, apoyos de nutricionistas,
+                  medicos, para lograr un grupo de recetas ricas, divertidas, saludables.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    <!-- /planeacion -->
+      <!-- Escoger -->
+      <section id="escogerReceta" class="mt-4 mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-5 mr-4">
+            <div class="card" style="width: 32rem;">
+              <img src="core/img/escoger_recetas.JPG" class="card-img-top" alt="Escoger Receta">
+              <div class="card-body">
+                <p class="card-text">Escoge segun tus gustos y necesidades, tenemos recetas por restricciones, por tiempo de cocción
+                por tiempo lavando, definimos los implementos de cocina que vas a necesitar</p>
+              </div>
+            </div>
+           </div>
+          <div class="col-5 ml-4">
+            <div class="card" style="width: 32rem;">
+              <img src="core/img/escoger_recetas1.JPG" class="card-img-top" alt="Hacer el pedido">
+              <div class="card-body">
+                <p class="card-text">Quedamos solo a un click de que escojas tus menus, decidas la cantidad de porciones
+                  que vas a llevar por cada plato, controla el dinero que gastas, diversifica lo que comes, controla calorias
+                  e indices de glicemia.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- /Escoger -->
+        <!-- Seleccionar y cocinar -->
+        <section id="seleccionar" class="mt-4 mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-5 mr-4">
+            <div class="card" style="width: 32rem;">
+              <img src="core/img/separar.JPG" class="card-img-top" alt="separar">
+              <div class="card-body">
+                <p class="card-text">Escoge cada alimento, lo contamos, lo pesamos, lo medimos y te le empacamos receta por receta</p>
+              </div>
+            </div>
+           </div>
+          <div class="col-5 ml-4">
+            <div class="card" style="width: 32rem;">
+              <img src="core/img/cook.JPG" class="card-img-top" alt="cook">
+              <div class="card-body">
+                <p class="card-text">Reserva tiempo, para cocinar al lado de tus seres queridos, el amor que imprimes en cada
+                  cucharada, hacen de ese plato algo único e irrepetible.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+        <!-- /Seleccionar y cocinar -->
+
+    <!-- /explicacion -->
+
+    <!-- Modal -->
+<div class="modal fade" id="modalIngresar" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Ingresar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-row">
+            <div class="form-group col">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">@</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Nuevo usuario</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Ingresar</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- /Modal -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </main>
+  </body>
+
